@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.productone{
+    border: 2px solid blue;
+    width: fit-content;
+    padding: 1rem 1rem;
+    box-shadow: 2px 2px 4px aliceblue;
+    background-color: aquamarine;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.productone img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
