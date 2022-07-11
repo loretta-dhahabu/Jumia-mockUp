@@ -34,30 +34,44 @@ document.getElementById("producttwo").onclick = function () {
 };
 var productthree = {
   img: "./assets/images/shoe3.jpg",
-  productName: Sneaker3,
+  productName: "Sneaker3",
   price: 4000,
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id:103,
 };
+document.getElementById("imgTwo").src = producttwo.img;
+document.getElementById("prodTwoName").innerHTML = producttwo.productName;
+document.getElementById("prodTwoPrice").innerHTML = producttwo.price;
 
 var productfour = {
   img: "./assets/images/Icecream.jpg",
-  productName: Sneaker3,
-  price: 4000,
+  productName: "IceCream",
+  price: 700,
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id: 104,
 };
+document.getElementById("imgTwo").src = producttwo.img;
+document.getElementById("prodTwoName").innerHTML = producttwo.productName;
+document.getElementById( "prodTwoPrice" ).innerHTML = producttwo.price;
+
 var productfive = {
   img: "./assets/images/burger.jpg",
-  productName: Sneaker3,
-  price: 4000,
+  productName: "Burger",
+  price: 1500,
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id: 105,
 };
+document.getElementById("imgTwo").src = producttwo.img;
+document.getElementById("prodTwoName").innerHTML = producttwo.productName;
+document.getElementById( "prodTwoPrice" ).innerHTML = producttwo.price;
+
 var productsix = {
   img: "./assets/images/clothing.jpg",
-  productName: Sneaker3,
-  price: 4000,
+  productName: "Women Clothes",
+  price: 6500,
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id: 106,
 };
+document.getElementById("imgSix").src = productsix.img;
+document.getElementById("prodSixName").innerHTML = productsix.productName;
+document.getElementById("prodSixPrice").innerHTML = productsix.price;
