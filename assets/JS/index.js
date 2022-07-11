@@ -1,4 +1,4 @@
-var productone = {
+let productone = {
   img: "./assets/images/shoe1.jpg",
   productName: "Sneaker",
   price: 3500,
@@ -16,7 +16,8 @@ document.getElementById( "productone" ).onclick = function ()
     window.location.href = "products.html" + "?" + productone.id;
 }
 
-var producttwo = {
+
+let producttwo = {
   img: "./assets/images/shoe2.jpg",
   productName: "Sneaker2",
   price: 4500,
@@ -32,7 +33,9 @@ document.getElementById("prodTwoPrice").innerHTML = producttwo.price;
 document.getElementById("producttwo").onclick = function () {
   window.location.href = "products.html" + "?" + producttwo.id;
 };
-var productthree = {
+
+
+let productthree = {
   img: "./assets/images/shoe3.jpg",
   productName: "Sneaker3",
   price: 4000,
@@ -41,9 +44,15 @@ var productthree = {
 };
 document.getElementById("imgThree").src = productthree.img;
 document.getElementById("prodThreeName").innerHTML = productthree.productName;
-document.getElementById("prodThreePrice").innerHTML = productthree.price;
+document.getElementById( "prodThreePrice" ).innerHTML = productthree.price;
 
-var productfour = {
+document.getElementById( "productthree" ).onclick =  () =>
+{
+  window.location.href = "products.html" + "?" + productthree.id;
+  // console.log(productthree);
+};
+
+let productfour = {
   img: "./assets/images/Icecream.jpg",
   productName: "IceCream",
   price: 700,
@@ -54,7 +63,13 @@ document.getElementById("imgFour").src = productfour.img;
 document.getElementById("prodFourName").innerHTML = productfour.productName;
 document.getElementById("prodFourPrice").innerHTML = productfour.price;
 
-var productfive = {
+document.getElementById("productfour").onclick = () => {
+  window.location.href = "products.html" + "?" + productfour.id;
+  // console.log(productthree);
+};
+
+
+let productfive = {
   img: "./assets/images/burger.jpg",
   productName: "Burger",
   price: 1500,
@@ -65,7 +80,13 @@ document.getElementById("imgFive").src = productfive.img;
 document.getElementById("prodFiveName").innerHTML = productfive.productName;
 document.getElementById("prodFivePrice").innerHTML = productfive.price;
 
-var productsix = {
+document.getElementById( "productfive" ).onclick = () =>
+{
+  window.location.href = "products.html" + "?" + productfive.id;
+}
+
+
+let productsix = {
   img: "./assets/images/clothing.jpg",
   productName: "Women Clothes",
   price: 6500,
@@ -75,3 +96,9 @@ var productsix = {
 document.getElementById("imgSix").src = productsix.img;
 document.getElementById("prodSixName").innerHTML = productsix.productName;
 document.getElementById("prodSixPrice").innerHTML = productsix.price;
+
+document.getElementById( "productsix" ).onclick = () => 
+{
+  window.location.href = "products.html" + "?" + productsix.id;
+  
+};
