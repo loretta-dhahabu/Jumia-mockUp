@@ -3,28 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.products{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 1em;
+  /* gap: .5em; */
+}
+
 .productone{
     /* border: 2px solid blue; */
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+    background-color:rgb(240, 235, 235); 
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
+
 .productone img{
     height: 250px;
     width: 300px;
     object-fit: cover;
+    display: block;
 }
 .producttwo{
     /* border: 2px solid blue; */
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+   background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
 .producttwo img{
     height: 250px;
@@ -35,9 +48,10 @@
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+   background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
 .productthree img{
     height: 250px;
@@ -49,9 +63,10 @@
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+  background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
 .productfour img{
     height: 250px;
@@ -62,9 +77,10 @@
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+    background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
 .productfive img{
     height: 250px;
@@ -75,9 +91,10 @@
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+   background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    cursor: pointer;
 }
 .productsix img{
     height: 250px;
@@ -89,9 +106,11 @@
     width: fit-content;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 4px aliceblue;
-    /* background-color: aquamarine; */
+    background-color:rgb(240, 235, 235);
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    margin-top: 1em;
+    cursor:wait;
 }
 .allProducts img{
     height: 250px;
