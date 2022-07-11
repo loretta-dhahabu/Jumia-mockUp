@@ -110,3 +110,7 @@
     width: 300px;
     object-fit: cover;
 }
+.allProducts img:hover{
+    transform: scaleX(-1);
+    /* transform: scaleY(-1); */
+}
