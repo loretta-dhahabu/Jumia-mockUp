@@ -39,9 +39,9 @@ var productthree = {
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id:103,
 };
-document.getElementById("imgTwo").src = producttwo.img;
-document.getElementById("prodTwoName").innerHTML = producttwo.productName;
-document.getElementById("prodTwoPrice").innerHTML = producttwo.price;
+document.getElementById("imgThree").src = productthree.img;
+document.getElementById("prodThreeName").innerHTML = productthree.productName;
+document.getElementById("prodThreePrice").innerHTML = productthree.price;
 
 var productfour = {
   img: "./assets/images/Icecream.jpg",
@@ -50,9 +50,9 @@ var productfour = {
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id: 104,
 };
-document.getElementById("imgTwo").src = producttwo.img;
-document.getElementById("prodTwoName").innerHTML = producttwo.productName;
-document.getElementById( "prodTwoPrice" ).innerHTML = producttwo.price;
+document.getElementById("imgFour").src = productfour.img;
+document.getElementById("prodFourName").innerHTML = productfour.productName;
+document.getElementById("prodFourPrice").innerHTML = productfour.price;
 
 var productfive = {
   img: "./assets/images/burger.jpg",
@@ -61,9 +61,9 @@ var productfive = {
   description:"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Placeat, porro?",
   id: 105,
 };
-document.getElementById("imgTwo").src = producttwo.img;
-document.getElementById("prodTwoName").innerHTML = producttwo.productName;
-document.getElementById( "prodTwoPrice" ).innerHTML = producttwo.price;
+document.getElementById("imgFive").src = productfive.img;
+document.getElementById("prodFiveName").innerHTML = productfive.productName;
+document.getElementById("prodFivePrice").innerHTML = productfive.price;
 
 var productsix = {
   img: "./assets/images/clothing.jpg",
